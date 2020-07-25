@@ -10,7 +10,7 @@
 
 - (void)viewDidLoad
 {
-    NSLog(@"MGLKViewController viewDidLoad");
+    // NSLog(@"MGLKViewController viewDidLoad");
     [super viewDidLoad];
 }
 
@@ -39,7 +39,7 @@
         return;
     }
 
-    NSLog(@"MGLKViewController pause");
+    // NSLog(@"MGLKViewController pause");
 
     if (_displayLink)
     {
@@ -58,7 +58,7 @@
     }
 
     [self pause];
-    NSLog(@"MGLKViewController resume");
+    // NSLog(@"MGLKViewController resume");
 
     if (!_glView)
     {
